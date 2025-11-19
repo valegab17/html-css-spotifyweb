@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 /* UTILS */
 button{
     cursor: pointer;
 }
+
 
 /*HEADER*/
 
@@ -56,3 +60,10 @@ nav button {
     font-size: 1em;
     
 }
+
+#logo-h, #logo-s, #logo-l{
+    width: 30px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
