@@ -63,12 +63,20 @@ nav button {
 
 }
 
+.home {
+    border-left: 3px solid #68a40d;
+}
+
 #logo-h,
 #logo-s,
 #logo-l {
     width: 30px;
     vertical-align: bottom;
     margin-right: 10px;
+}
+
+h3{
+    color: #fff;
 }
 
 i {
@@ -120,12 +128,13 @@ a {
 }
 
 .user {
-    display: flex;          
-    align-items: center;    
-    gap: 10px;             
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin: 10px;
     color: #fff;
 }
+
 .avatar {
     border-radius: 50%;
     height: 40px;
@@ -135,4 +144,25 @@ a {
     background-image: url('../img/profile.svg');
     background-size: contain;
     background-position: center;
+}
+
+
+/* HOVER */
+
+.sidebar nav button:hover{
+    background-color: #080B12;
+    color: #fff;
+}
+
+.new-playlist:hover{
+    color: #fff;
+}
+
+.n-playlist li a:hover{
+    color: #fff;
+    background-color: #080B12;
+}
+
+.download a:hover{
+    color: #fff;
 }
