@@ -17,7 +17,12 @@ h3 {
 
 }
 
-button{
+h4 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+button {
     background-color: transparent;
     cursor: pointer;
 }
@@ -32,9 +37,12 @@ button{
 .sidebar {
     flex-basis: 250px;
     flex-shrink: 1;
-    height: calc(100vh - 100px);
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    scrollbar-width: none;
     /* DEBUG */
     background-color: black;
+
 }
 
 .logo {
@@ -43,20 +51,75 @@ button{
 
 }
 
-.home{
-    display: flex;
-  color: #fff;
-  text-align: center;
-  align-items: center;
-  gap: 8px;
-  border: none;
-  font-weight: 600;
+.nav-btn, .download img {
+    width: 24px;
+    height: 24px;
+}
 
+.nav-btn, .new-playlist {
+
+    display: flex;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    font-weight: 600;
+    min-height: 50px;
+
+}
+
+.n-playlist ul li{
+    margin-bottom: 15px;
+}
+
+i{
+    font-size: 2rem;
+    color: black;
+    background-color: grey;
+}
+
+/*SIDE FOOTER*/
+.download {
+    margin-top: 60%;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+#download {
+    width: 30px;
+    vertical-align: middle;
+}
+
+.divider {
+    
+    height: 1px;
+    background-color: grey;
+    margin: 0 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    color: #fff;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: grey;
+    background-image: url('../img/profile.svg');
+    background-size: contain;
+    background-position: center;
 }
 
 /*contenuto principale*/
 main {
-    height: calc(100vh - 100px);
+    max-height: calc(100vh - 100px);
     display: flex;
     /* DEBUG */
     background-color: blueviolet;
