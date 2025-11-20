@@ -1,0 +1,24 @@
+@media screen and (max-width: 878px) {
+
+    .sidebar {
+        flex-basis: 60%;
+        flex-shrink: 0.5;
+    }
+
+    .download {
+        margin-top: 30vh;
+    }
+
+    .explore {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width:639px) {
+    .card{
+        flex-basis: calc(100% /2 - 20px);
+    }
+
+    
+}

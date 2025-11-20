@@ -36,7 +36,7 @@ button {
 /* SIDEBAR */
 .sidebar {
     flex-basis: 250px;
-    flex-shrink: 1;
+    flex-shrink: 0;
     max-height: calc(100vh - 100px);
     overflow-y: auto;
     scrollbar-width: none;
