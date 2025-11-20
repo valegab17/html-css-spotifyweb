@@ -17,10 +17,41 @@ h3 {
 
 }
 
-.card{
-    flex-basis: 20%;
+button{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card {
+    flex-basis: calc(100% / 6 - 20px);
     flex-shrink: 1;
     min-width: 100px;
+}
+
+/* SIDEBAR */
+.sidebar {
+    flex-basis: 250px;
+    flex-shrink: 1;
+    height: calc(100vh - 100px);
+    /* DEBUG */
+    background-color: black;
+}
+
+.logo {
+    width: 70%;
+    margin: 20px;
+
+}
+
+.home{
+    display: flex;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  font-weight: 600;
+
 }
 
 /*contenuto principale*/
@@ -31,12 +62,6 @@ main {
     background-color: blueviolet;
 }
 
-.sidebar {
-    flex-basis: 250px;
-    flex-shrink: 0;
-    /* DEBUG */
-    background-color: black;
-}
 
 .content {
     flex-grow: 1;
@@ -92,13 +117,13 @@ a {
 
 .recently-played {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .card img {
     width: 100%;
-    padding: 10px;
+
 }
 
 .playlist-name {
@@ -110,16 +135,18 @@ h5 {
     color: grey;
 }
 
-.for-you, .popular{
+.for-you,
+.popular {
     display: flex;
     flex-wrap: nowrap;
     gap: 20px;
 }
-.sub{
+
+.sub {
     margin: 10px;
 }
 
-.artist-album{
+.artist-album {
     border-radius: 50%;
 }
 
@@ -128,5 +155,5 @@ footer {
 
     height: 100px;
     /* DEBUG */
-    background-color: brown;
+    background-color: #292929;
 }
