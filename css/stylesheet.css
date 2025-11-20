@@ -119,6 +119,9 @@ h5 {
     margin: 10px;
 }
 
+.artist-album{
+    border-radius: 50%;
+}
 
 /* footer */
 footer {
