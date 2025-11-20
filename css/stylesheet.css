@@ -13,6 +13,14 @@ body {
 h3 {
     color: #fff;
     font-size: 2rem;
+    margin: 50px 10px;
+
+}
+
+.card{
+    flex-basis: 20%;
+    flex-shrink: 1;
+    min-width: 100px;
 }
 
 /*contenuto principale*/
@@ -101,6 +109,16 @@ a {
 h5 {
     color: grey;
 }
+
+.for-you, .popular{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.sub{
+    margin: 10px;
+}
+
 
 /* footer */
 footer {

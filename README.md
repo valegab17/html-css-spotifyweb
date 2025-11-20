@@ -5,3 +5,4 @@ Lo sto rifacendo dall'inizio, quindi ci sarà un grande commit con tutte le modi
 Aggiornamento dell 13:57: ho cancellato il vecchio contenuto mettendo il lavoro svolto finora. 
 
 
+     
