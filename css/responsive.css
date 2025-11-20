@@ -16,9 +16,51 @@
 
 
 @media screen and (max-width:639px) {
-    .card{
+    .card {
         flex-basis: calc(100% /2 - 20px);
     }
+}
 
-    
+@media screen and (max-width:552px) {
+    .big {
+        display: none;
+    }
+
+    .small {
+        display: block;
+        width: 30px;
+        margin: 10px;
+    }
+
+    .btn-txt {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    h4 {
+        display: none;
+    }
+
+    .sidebar {
+        flex-basis: 15%;
+    }
+    .logo{
+        margin: 0;
+    }
+    .navigation, .n-playlist, #download{
+        margin: 25%;
+    }
+
+    .avatar{
+        height: 20px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .download{
+        
+    }
 }

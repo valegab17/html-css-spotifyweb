@@ -51,12 +51,24 @@ button {
 
 }
 
-.nav-btn, .download img {
+.big {
+    display: block;
+
+}
+
+.small {
+    display: none;
+    width: 50px;
+}
+
+.nav-btn,
+.download img {
     width: 24px;
     height: 24px;
 }
 
-.nav-btn, .new-playlist {
+.nav-btn,
+.new-playlist {
 
     display: flex;
     color: #fff;
@@ -69,11 +81,11 @@ button {
 
 }
 
-.n-playlist ul li{
+.n-playlist ul li {
     margin-bottom: 15px;
 }
 
-i{
+i {
     font-size: 2rem;
     color: black;
     background-color: grey;
@@ -92,7 +104,7 @@ i{
 }
 
 .divider {
-    
+
     height: 1px;
     background-color: grey;
     margin: 0 10px;
