@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Utils */
+h3 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+/*contenuto principale*/
+main {
+    height: calc(100vh - 100px);
+    display: flex;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+.sidebar {
+    flex-basis: 250px;
+    flex-shrink: 0;
+    /* DEBUG */
+    background-color: black;
+}
+
+.content {
+    flex-grow: 1;
+    overflow: auto;
+    /* debug */
+    background-color: #141922;
+}
+
+/* header section */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    /*debug*/
+    background-color: #080b12;
+}
+
+.btn-upgrade {
+    /*  height: 50px; */
+    align-self: center;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-color: #fff;
+    border-radius: 50px;
+
+}
+
+
+
+/*ESPLORA*/
+.explore {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 20px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+#evidenza {
+    border-bottom: 1px solid greenyellow;
+}
+
+/*RECENTLY PLAYED SECTION*/
+
+
+.recently-played {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.card img {
+    width: 100%;
+    padding: 10px;
+}
+
+.playlist-name {
+    text-align: center;
+    color: #fff;
+}
+
+h5 {
+    color: grey;
+}
+
+/* footer */
+footer {
+
+    height: 100px;
+    /* DEBUG */
+    background-color: brown;
+}
