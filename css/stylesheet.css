@@ -232,3 +232,25 @@ footer {
     /* DEBUG */
     background-color: #292929;
 }
+
+.song-info{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.song-info img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.song-title{
+  font-weight:600;
+  color: #fff;
+}
+
+span{
+  color:grey;
+}
